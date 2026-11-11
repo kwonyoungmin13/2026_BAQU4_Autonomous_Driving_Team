@@ -44,7 +44,7 @@ LiDAR, Camera, GPS 및 IMU 등의 센서 데이터를 기반으로 차량의 위
 | Module | Description | Repository |
 |---|---|---|
 | GPS Localization | GPS 기반 차량 위치 및 방향 추정 | 추후 추가 |
-| Traffic Light Recognition | 교통 신호 인식 및 현시 정보 처리 | 추후 추가 |
+| Traffic Light Recognition | 교통 신호 인식 및 현시 정보 처리 | [traffic-light-recognition](https://github.com/JaeeunChong/traffic-light-recognition) |
 | Map Generation | 주행 지도 및 기준 경로 생성 | 추후 추가 |
 | Cone Detection | 콘 검출 및 장애물 인식 | 추후 추가 |
 | Control Manager | 주행 판단 및 경로 추종 제어 | [control_manager](https://github.com/planta223/control_manager) |
