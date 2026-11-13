@@ -39,14 +39,13 @@ BAQU4는 **하드웨어팀, 제어팀, 인지판단팀**으로 구성된 자작 
 
 ### 2.2 Perception & Planning — 인지판단팀
 
-LiDAR, Camera, GPS 및 IMU 등의 센서 데이터를 기반으로 차량의 위치와 주변 환경을 인식하고, 주행 경로 및 차량 제어 명령을 생성합니다.
+LiDAR, GPS 센서 데이터를 기반으로 차량의 위치와 주변 환경을 인식하고, 주행 경로 및 차량 제어 명령을 생성합니다.
+Camera와 IMU는 차량에 탑재되었으나 제어에 활용되지는 못했습니다.
 
 | Module | Description | Repository |
 |---|---|---|
-| GPS Localization | GPS 기반 차량 위치 및 방향 추정 | 추후 추가 |
 | Traffic Light Recognition | 교통 신호 인식 및 현시 정보 처리 | [traffic-light-recognition](https://github.com/JaeeunChong/traffic-light-recognition) |
-| Map Generation | 주행 지도 및 기준 경로 생성 | 추후 추가 |
-| Cone Detection | 콘 검출 및 장애물 인식 | 추후 추가 |
+| Brake Test | 라이다 기반 제동 검차 | [BAQU4-Brake-Test](https://github.com/joosung631-ops/BAQU4-Brake-Test/tree/main/stop_test) |
 | Control Manager | 주행 판단 및 경로 추종 제어 | [control_manager](https://github.com/planta223/control_manager) |
 
 ---
