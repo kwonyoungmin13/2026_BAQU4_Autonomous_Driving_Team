@@ -40,6 +40,7 @@ BAQU4는 **하드웨어팀, 제어팀, 인지판단팀**으로 구성된 자작 
 ### 2.2 Perception & Planning — 인지판단팀
 
 LiDAR, GPS 센서 데이터를 기반으로 차량의 위치와 주변 환경을 인식하고, 주행 경로 및 차량 제어 명령을 생성합니다.
+
 Camera와 IMU는 차량에 탑재되었으나 제어에 활용되지는 못했습니다.
 
 | Module | Description | Repository |
